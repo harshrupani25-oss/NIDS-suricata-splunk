@@ -1,4 +1,4 @@
-\# 🛡️ Mini SOC Lab – Suricata + Splunk
+🛡️ Mini SOC Lab – Suricata + Splunk
 
 
 
