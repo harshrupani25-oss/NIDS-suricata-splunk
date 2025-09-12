@@ -37,6 +37,8 @@ Install Splunk Enterprise (Windows Host):
      sudo apt update && sudo apt upgrade -y
      sudo apt install suricata -y
      suricata --build-info
+     wget -O suricata.tar.gz "https://www.openinfosecfoundation.org/download/suricata-8.0.0.tar.gz"
+
 
 
 -> Edit configuration:
@@ -98,20 +100,15 @@ Verify alerts in Splunk dashboards.
 -> Splunk Forwarder (Linux Target VM)
 
     sudo /opt/splunkforwarder/bin/splunk start
-    
     sudo /opt/splunkforwarder/bin/splunk stop
-    
     sudo /opt/splunkforwarder/bin/splunk restart
 
 
 -> Suricata (Linux Target VM)
 
     sudo systemctl start suricata
-    
     sudo systemctl stop suricata
-    
     sudo systemctl restart suricata
-    
     sudo systemctl status suricata
 
 
