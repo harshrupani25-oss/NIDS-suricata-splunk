@@ -54,25 +54,17 @@ In this lab, I ingested:
 -> Some example Splunk queries:
 
     Detect Apache Web Requests
-    
     &nbsp; ```spl
-
-
     &nbsp; index=apache\_index source="apache\_log.log"
-    
     &nbsp; | stats count by status, clientip
-
 
 
 
 -> Detect SSH Brute Force Attempts:
 
     index=syslog sourcetype=syslog dest\_port=22
-    
     stats count by src\_ip
-    
     where count > 10
-
 
 
 -> Detect Nmap Scans:
