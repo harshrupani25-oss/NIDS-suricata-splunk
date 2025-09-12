@@ -21,12 +21,13 @@ Flow:
 
 
 📊 Dashboards \& Detections:
--> Splunk Internal Logs:
+
+Splunk Internal Logs:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/09c07231-85ac-4c12-af12-99f75958a82b" />
 
 
--> Apache Log Analysis:
+Apache Log Analysis:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2344d312-ba76-4d7d-a057-c8b6f39a5dbb" />
 
