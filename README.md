@@ -2,7 +2,7 @@
 
 
 
-This project is a mini Security Operations Center (SOC) lab built using:
+This project is a Network Intrusion Detection System (NIDS) lab built using:
 
 -> Linux VM with Suricata (IDS/IPS) + Splunk Universal Forwarder  
 
