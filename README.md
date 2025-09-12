@@ -16,7 +16,9 @@ This project is a mini Security Operations Center (SOC) lab built using:
 
 
 Flow:
+
 -> Linux VM:Suricata generates IDS alerts → Splunk Forwarder sends logs  
+
 -> Windows Host: Splunk Enterprise ingests logs, builds dashboards, and runs searches 
 
 
