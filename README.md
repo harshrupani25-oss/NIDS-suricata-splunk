@@ -28,7 +28,8 @@ Flow:
 
 -> Apache Log Analysis:
 
-!\[Splunk Apache Logs](screenshots/apache\_logs.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2344d312-ba76-4d7d-a057-c8b6f39a5dbb" />
+
 
 📂 Sample Logs:
 
