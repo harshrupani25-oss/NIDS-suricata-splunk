@@ -1,4 +1,4 @@
-🛡️ Mini SOC Lab – Suricata + Splunk
+🛡️ End-to-End NIDS Lab: Suricata + Splunk
 
 
 
@@ -22,7 +22,8 @@ Flow:
 -> Windows Host: Splunk Enterprise ingests logs, builds dashboards, and runs searches 
 
 
-📊 Dashboards \& Detections:
+
+📊 Dashboards & Detections:
 
 Splunk Internal Logs:
 
