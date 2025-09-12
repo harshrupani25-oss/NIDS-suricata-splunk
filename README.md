@@ -20,7 +20,8 @@ It demonstrates how to \*\*detect and analyze network threats\*\* in a home lab 
 
 \## ⚙️ Architecture
 
-!\[Architecture Diagram](screenshots/architecture.png)
+!\[Architecture Diagram](<img width="301" height="280" alt="image" src="https://github.com/user-attachments/assets/e2f5c478-b7e8-4413-be3c-131d272d4ffd" />
+)
 
 
 
