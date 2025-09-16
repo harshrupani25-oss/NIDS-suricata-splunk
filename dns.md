@@ -14,7 +14,7 @@ Import DNS log files into Splunk using a defined `sourcetype`.
 ---
 
 ## 2️⃣ Field Extraction
-Parse raw DNS logs into meaningful fields such as `src_ip`, `dest_ip`, `dns_query`, `qtype`, `rcode_name`, and `proto`.
+Parse raw DNS logs into meaningful fields such as `src_ip`, `src_port`, `dst_ip`, `dst_port`, `dns_query`, `fqdn`, `rcode_type`, and `protocol`.
 
 <img width="1920" height="1080" alt="dns log etract field 1" src="https://github.com/user-attachments/assets/6b0d3b44-0d8f-4545-83e7-8772f806e899" />
 
