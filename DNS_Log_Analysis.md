@@ -75,6 +75,7 @@ Summarize queries by client IP, domain, or response code using `table` and `stat
 
 <img width="1920" height="1080" alt="dns log analisys using stats count command " src="https://github.com/user-attachments/assets/ca29625d-5a11-4235-b2aa-040f8086204a" />
 
+---
 
 7. dedup removes duplicate events based on specified fields, keeping only the first occurrence of each unique value.
 
