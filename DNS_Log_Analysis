@@ -1,0 +1,22 @@
+This module demonstrates how DNS logs can be ingested, analyzed, and visualized in Splunk as part of the NIDS-Suricata lab. The analysis includes:
+
+Log Ingestion: Importing DNS log files into Splunk using a defined sourcetype.
+
+Field Extraction: Parsing raw DNS logs into meaningful fields such as src_ip, dest_ip, dns_query, qtype, rcode_name, and proto.
+
+
+
+
+Data Enrichment: (Optional) Using lookups or external CSVs to enrich IP addresses with asset names or locations.
+
+Search and Analysis: Utilizing SPL commands to gain insights:
+
+eval → Create new fields and categorize DNS queries.
+
+transaction → Group related DNS query-response events.
+
+table / stats count → Summarize queries by client IP, domain, or response code.
+
+Visualization: Generating tables, charts, and summary statistics to detect abnormal DNS activity.
+
+This workflow complements Suricata NIDS alerts by providing contextual visibility into DNS traffic, helping identify potential reconnaissance, suspicious queries, or misconfigurations in the network.
